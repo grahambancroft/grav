@@ -1,29 +1,12 @@
-# v1.9.0-beta.3
-## 10/15/2018
+# v1.8.12
+## 10/24/2018
 
-1. [](#bugfix)
-    * Regression: Editing interface does not keep settings properly without manual intervention on each edit [#1527](https://github.com/getgrav/grav-plugin-admin/issues/1527)
-    * Removed duplicate language strings
-
-# v1.9.0-beta.2
-## 10/09/2018
-
-1. [](#new)
-    * New `Tools - Reports` section with event `onAdminGenerateReports()` for 3rd party plugin support
 1. [](#improved)
-    * Improved usability of `System` configuration blueprint with side-tabs
-    * Cleaned up UI in `Scheduler` tools page    
+    * Updated various lang strings
+    * Removed duplicate lang strings
 1. [](#bugfix)
-    * Fixed default `job_at` so it does not fail if missing
-    * Minor JS group `bottom` fix
-
-# v1.9.0-beta.1
-## 10/01/2018
-
-1. [](#new)
-    * New `Scheduler` configuration panel in tools
-    * New `Backups` configuration panel in tools
-    * New `Cache::purge()` option in cache drop-down to clear out old cache only
+    * Fix XSS checking when empty content [#1533](https://github.com/getgrav/grav-plugin-admin/issues/1533)
+    * Fix DirectInstall not working [#1535](https://github.com/getgrav/grav-plugin-admin/issues/1535)
 
 # v1.8.11
 ## 10/08/2018
